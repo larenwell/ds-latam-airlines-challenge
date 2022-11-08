@@ -11051,3 +11051,541 @@ KeyboardInterrupt
 2022-11-08 08:36:32,729:INFO:Scoring test/hold-out set
 2022-11-08 08:36:32,944:INFO:Visual Rendered Successfully
 2022-11-08 08:36:33,011:INFO:plot_model() succesfully completed......................................
+2022-11-08 08:41:34,835:INFO:Initializing create_model()
+2022-11-08 08:41:34,835:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.0, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:41:34,835:INFO:Checking exceptions
+2022-11-08 08:41:34,836:INFO:Importing libraries
+2022-11-08 08:41:34,836:INFO:Copying training dataset
+2022-11-08 08:41:34,838:INFO:Defining folds
+2022-11-08 08:41:34,838:INFO:Declaring metric variables
+2022-11-08 08:41:34,838:INFO:Importing untrained model
+2022-11-08 08:41:34,839:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:41:34,839:INFO:Starting cross validation
+2022-11-08 08:41:34,840:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 08:43:21,191:INFO:Calculating mean and std
+2022-11-08 08:43:21,191:INFO:Creating metrics dataframe
+2022-11-08 08:43:21,260:INFO:Finalizing model
+2022-11-08 08:43:38,592:INFO:Uploading results into container
+2022-11-08 08:43:38,592:INFO:Uploading model into container now
+2022-11-08 08:43:38,592:INFO:create_model_container: 28
+2022-11-08 08:43:38,592:INFO:master_model_container: 28
+2022-11-08 08:43:38,592:INFO:display_container: 15
+2022-11-08 08:43:38,594:INFO:XGBClassifier(base_score=0.5, booster='gbtree', callbacks=None,
+              colsample_bylevel=1, colsample_bynode=1, colsample_bytree=1,
+              early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, gamma=0, gpu_id=-1, grow_policy='depthwise',
+              importance_type=None, interaction_constraints='',
+              learning_rate=0.300000012, max_bin=256, max_cat_to_onehot=4,
+              max_delta_step=0, max_depth=6, max_leaves=0, min_child_weight=1,
+              missing=nan, monotone_constraints='()', n_estimators=100,
+              n_jobs=-1, num_parallel_tree=1, objective='binary:logistic',
+              predictor='auto', random_state=123, reg_alpha=0, ...)
+2022-11-08 08:43:38,594:INFO:create_model() succesfully completed......................................
+2022-11-08 08:43:38,682:INFO:Initializing create_model()
+2022-11-08 08:43:38,682:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.1, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:43:38,682:INFO:Checking exceptions
+2022-11-08 08:43:38,682:INFO:Importing libraries
+2022-11-08 08:43:38,682:INFO:Copying training dataset
+2022-11-08 08:43:38,685:INFO:Defining folds
+2022-11-08 08:43:38,686:INFO:Declaring metric variables
+2022-11-08 08:43:38,686:INFO:Importing untrained model
+2022-11-08 08:43:38,688:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:43:38,688:INFO:Starting cross validation
+2022-11-08 08:43:38,688:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 08:45:22,251:INFO:Calculating mean and std
+2022-11-08 08:45:22,252:INFO:Creating metrics dataframe
+2022-11-08 08:45:22,257:INFO:Finalizing model
+2022-11-08 08:45:39,457:INFO:Uploading results into container
+2022-11-08 08:45:39,457:INFO:Uploading model into container now
+2022-11-08 08:45:39,457:INFO:create_model_container: 29
+2022-11-08 08:45:39,457:INFO:master_model_container: 29
+2022-11-08 08:45:39,457:INFO:display_container: 16
+2022-11-08 08:45:39,460:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.1, ...)
+2022-11-08 08:45:39,460:INFO:create_model() succesfully completed......................................
+2022-11-08 08:45:39,536:INFO:Initializing create_model()
+2022-11-08 08:45:39,537:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.2, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:45:39,537:INFO:Checking exceptions
+2022-11-08 08:45:39,537:INFO:Importing libraries
+2022-11-08 08:45:39,537:INFO:Copying training dataset
+2022-11-08 08:45:39,539:INFO:Defining folds
+2022-11-08 08:45:39,539:INFO:Declaring metric variables
+2022-11-08 08:45:39,539:INFO:Importing untrained model
+2022-11-08 08:45:39,542:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:45:39,542:INFO:Starting cross validation
+2022-11-08 08:45:39,542:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 08:47:36,831:INFO:Calculating mean and std
+2022-11-08 08:47:36,831:INFO:Creating metrics dataframe
+2022-11-08 08:47:36,833:INFO:Finalizing model
+2022-11-08 08:47:59,578:INFO:Uploading results into container
+2022-11-08 08:47:59,578:INFO:Uploading model into container now
+2022-11-08 08:47:59,578:INFO:create_model_container: 30
+2022-11-08 08:47:59,578:INFO:master_model_container: 30
+2022-11-08 08:47:59,578:INFO:display_container: 17
+2022-11-08 08:47:59,581:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.2, ...)
+2022-11-08 08:47:59,581:INFO:create_model() succesfully completed......................................
+2022-11-08 08:47:59,657:INFO:Initializing create_model()
+2022-11-08 08:47:59,657:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.30000000000000004, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:47:59,657:INFO:Checking exceptions
+2022-11-08 08:47:59,657:INFO:Importing libraries
+2022-11-08 08:47:59,657:INFO:Copying training dataset
+2022-11-08 08:47:59,659:INFO:Defining folds
+2022-11-08 08:47:59,660:INFO:Declaring metric variables
+2022-11-08 08:47:59,660:INFO:Importing untrained model
+2022-11-08 08:47:59,662:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:47:59,662:INFO:Starting cross validation
+2022-11-08 08:47:59,663:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 08:49:46,523:INFO:Calculating mean and std
+2022-11-08 08:49:46,525:INFO:Creating metrics dataframe
+2022-11-08 08:49:46,534:INFO:Finalizing model
+2022-11-08 08:50:03,903:INFO:Uploading results into container
+2022-11-08 08:50:03,903:INFO:Uploading model into container now
+2022-11-08 08:50:03,903:INFO:create_model_container: 31
+2022-11-08 08:50:03,903:INFO:master_model_container: 31
+2022-11-08 08:50:03,903:INFO:display_container: 18
+2022-11-08 08:50:03,906:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None,
+                                     probability_threshold=0.30000000000000004, ...)
+2022-11-08 08:50:03,906:INFO:create_model() succesfully completed......................................
+2022-11-08 08:50:03,982:INFO:Initializing create_model()
+2022-11-08 08:50:03,982:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.4, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:50:03,982:INFO:Checking exceptions
+2022-11-08 08:50:03,983:INFO:Importing libraries
+2022-11-08 08:50:03,983:INFO:Copying training dataset
+2022-11-08 08:50:03,985:INFO:Defining folds
+2022-11-08 08:50:03,985:INFO:Declaring metric variables
+2022-11-08 08:50:03,985:INFO:Importing untrained model
+2022-11-08 08:50:03,987:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:50:03,987:INFO:Starting cross validation
+2022-11-08 08:50:03,988:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 08:51:52,034:INFO:Calculating mean and std
+2022-11-08 08:51:52,036:INFO:Creating metrics dataframe
+2022-11-08 08:51:52,044:INFO:Finalizing model
+2022-11-08 08:52:25,228:INFO:Uploading results into container
+2022-11-08 08:52:25,228:INFO:Uploading model into container now
+2022-11-08 08:52:25,228:INFO:create_model_container: 32
+2022-11-08 08:52:25,228:INFO:master_model_container: 32
+2022-11-08 08:52:25,228:INFO:display_container: 19
+2022-11-08 08:52:25,231:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.4, ...)
+2022-11-08 08:52:25,231:INFO:create_model() succesfully completed......................................
+2022-11-08 08:52:25,312:INFO:Initializing create_model()
+2022-11-08 08:52:25,312:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.5, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:52:25,312:INFO:Checking exceptions
+2022-11-08 08:52:25,312:INFO:Importing libraries
+2022-11-08 08:52:25,313:INFO:Copying training dataset
+2022-11-08 08:52:25,315:INFO:Defining folds
+2022-11-08 08:52:25,315:INFO:Declaring metric variables
+2022-11-08 08:52:25,315:INFO:Importing untrained model
+2022-11-08 08:52:25,318:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:52:25,318:INFO:Starting cross validation
+2022-11-08 08:52:25,319:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 08:54:19,804:INFO:Calculating mean and std
+2022-11-08 08:54:19,805:INFO:Creating metrics dataframe
+2022-11-08 08:54:19,809:INFO:Finalizing model
+2022-11-08 08:54:39,888:INFO:Uploading results into container
+2022-11-08 08:54:39,888:INFO:Uploading model into container now
+2022-11-08 08:54:39,888:INFO:create_model_container: 33
+2022-11-08 08:54:39,888:INFO:master_model_container: 33
+2022-11-08 08:54:39,889:INFO:display_container: 20
+2022-11-08 08:54:39,891:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.5, ...)
+2022-11-08 08:54:39,892:INFO:create_model() succesfully completed......................................
+2022-11-08 08:54:39,972:INFO:Initializing create_model()
+2022-11-08 08:54:39,972:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.6000000000000001, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:54:39,972:INFO:Checking exceptions
+2022-11-08 08:54:39,972:INFO:Importing libraries
+2022-11-08 08:54:39,972:INFO:Copying training dataset
+2022-11-08 08:54:39,976:INFO:Defining folds
+2022-11-08 08:54:39,976:INFO:Declaring metric variables
+2022-11-08 08:54:39,976:INFO:Importing untrained model
+2022-11-08 08:54:39,978:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:54:39,979:INFO:Starting cross validation
+2022-11-08 08:54:39,979:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 08:56:26,873:INFO:Calculating mean and std
+2022-11-08 08:56:26,874:INFO:Creating metrics dataframe
+2022-11-08 08:56:26,878:INFO:Finalizing model
+2022-11-08 08:56:44,267:INFO:Uploading results into container
+2022-11-08 08:56:44,267:INFO:Uploading model into container now
+2022-11-08 08:56:44,267:INFO:create_model_container: 34
+2022-11-08 08:56:44,267:INFO:master_model_container: 34
+2022-11-08 08:56:44,267:INFO:display_container: 21
+2022-11-08 08:56:44,270:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None,
+                                     probability_threshold=0.6000000000000001, ...)
+2022-11-08 08:56:44,270:INFO:create_model() succesfully completed......................................
+2022-11-08 08:56:44,347:INFO:Initializing create_model()
+2022-11-08 08:56:44,347:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.7000000000000001, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:56:44,347:INFO:Checking exceptions
+2022-11-08 08:56:44,347:INFO:Importing libraries
+2022-11-08 08:56:44,347:INFO:Copying training dataset
+2022-11-08 08:56:44,349:INFO:Defining folds
+2022-11-08 08:56:44,349:INFO:Declaring metric variables
+2022-11-08 08:56:44,350:INFO:Importing untrained model
+2022-11-08 08:56:44,352:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:56:44,352:INFO:Starting cross validation
+2022-11-08 08:56:44,352:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 08:58:29,199:INFO:Calculating mean and std
+2022-11-08 08:58:29,200:INFO:Creating metrics dataframe
+2022-11-08 08:58:29,204:INFO:Finalizing model
+2022-11-08 08:58:47,147:INFO:Uploading results into container
+2022-11-08 08:58:47,147:INFO:Uploading model into container now
+2022-11-08 08:58:47,147:INFO:create_model_container: 35
+2022-11-08 08:58:47,147:INFO:master_model_container: 35
+2022-11-08 08:58:47,147:INFO:display_container: 22
+2022-11-08 08:58:47,150:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None,
+                                     probability_threshold=0.7000000000000001, ...)
+2022-11-08 08:58:47,150:INFO:create_model() succesfully completed......................................
+2022-11-08 08:58:47,225:INFO:Initializing create_model()
+2022-11-08 08:58:47,225:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.8, display=None, return_train_score=False, kwargs={})
+2022-11-08 08:58:47,225:INFO:Checking exceptions
+2022-11-08 08:58:47,225:INFO:Importing libraries
+2022-11-08 08:58:47,225:INFO:Copying training dataset
+2022-11-08 08:58:47,228:INFO:Defining folds
+2022-11-08 08:58:47,228:INFO:Declaring metric variables
+2022-11-08 08:58:47,228:INFO:Importing untrained model
+2022-11-08 08:58:47,230:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 08:58:47,230:INFO:Starting cross validation
+2022-11-08 08:58:47,231:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 09:00:31,710:INFO:Calculating mean and std
+2022-11-08 09:00:31,712:INFO:Creating metrics dataframe
+2022-11-08 09:00:31,715:INFO:Finalizing model
+2022-11-08 09:00:49,729:INFO:Uploading results into container
+2022-11-08 09:00:49,729:INFO:Uploading model into container now
+2022-11-08 09:00:49,729:INFO:create_model_container: 36
+2022-11-08 09:00:49,729:INFO:master_model_container: 36
+2022-11-08 09:00:49,729:INFO:display_container: 23
+2022-11-08 09:00:49,732:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.8, ...)
+2022-11-08 09:00:49,732:INFO:create_model() succesfully completed......................................
+2022-11-08 09:00:49,807:INFO:Initializing create_model()
+2022-11-08 09:00:49,807:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=False, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.9, display=None, return_train_score=False, kwargs={})
+2022-11-08 09:00:49,807:INFO:Checking exceptions
+2022-11-08 09:00:49,807:INFO:Importing libraries
+2022-11-08 09:00:49,808:INFO:Copying training dataset
+2022-11-08 09:00:49,810:INFO:Defining folds
+2022-11-08 09:00:49,810:INFO:Declaring metric variables
+2022-11-08 09:00:49,810:INFO:Importing untrained model
+2022-11-08 09:00:49,812:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 09:00:49,812:INFO:Starting cross validation
+2022-11-08 09:00:49,813:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 09:02:34,849:INFO:Calculating mean and std
+2022-11-08 09:02:34,850:INFO:Creating metrics dataframe
+2022-11-08 09:02:34,854:INFO:Finalizing model
+2022-11-08 09:02:52,181:INFO:Uploading results into container
+2022-11-08 09:02:52,181:INFO:Uploading model into container now
+2022-11-08 09:02:52,181:INFO:create_model_container: 37
+2022-11-08 09:02:52,181:INFO:master_model_container: 37
+2022-11-08 09:02:52,181:INFO:display_container: 24
+2022-11-08 09:02:52,184:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.9, ...)
+2022-11-08 09:02:52,184:INFO:create_model() succesfully completed......................................
+2022-11-08 09:19:55,772:INFO:Initializing create_model()
+2022-11-08 09:19:55,772:INFO:create_model(estimator=xgboost, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, verbose=True, system=True, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=0.32, display=None, return_train_score=False, kwargs={})
+2022-11-08 09:19:55,772:INFO:Checking exceptions
+2022-11-08 09:19:55,772:INFO:Preparing display monitor
+2022-11-08 09:19:55,788:INFO:Importing libraries
+2022-11-08 09:19:55,788:INFO:Copying training dataset
+2022-11-08 09:19:55,790:INFO:Defining folds
+2022-11-08 09:19:55,790:INFO:Declaring metric variables
+2022-11-08 09:19:55,796:INFO:Importing untrained model
+2022-11-08 09:19:55,804:INFO:Extreme Gradient Boosting Imported succesfully
+2022-11-08 09:19:55,816:INFO:Starting cross validation
+2022-11-08 09:19:55,817:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=123, shuffle=True), n_jobs=-1
+2022-11-08 09:21:49,088:INFO:Calculating mean and std
+2022-11-08 09:21:49,091:INFO:Creating metrics dataframe
+2022-11-08 09:21:49,104:INFO:Finalizing model
+2022-11-08 09:22:12,701:INFO:Uploading results into container
+2022-11-08 09:22:12,701:INFO:Uploading model into container now
+2022-11-08 09:22:12,714:INFO:create_model_container: 38
+2022-11-08 09:22:12,714:INFO:master_model_container: 38
+2022-11-08 09:22:12,714:INFO:display_container: 25
+2022-11-08 09:22:12,718:INFO:CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.32, ...)
+2022-11-08 09:22:12,718:INFO:create_model() succesfully completed......................................
+2022-11-08 09:33:46,476:INFO:Initializing plot_model()
+2022-11-08 09:33:46,476:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.32, ...), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=feature_all, plot_kwargs=None, save=False, scale=1, system=True)
+2022-11-08 09:33:46,476:INFO:Checking exceptions
+2022-11-08 09:33:46,481:INFO:Preparing display monitor
+2022-11-08 09:33:46,487:INFO:Preloading libraries
+2022-11-08 09:33:46,495:INFO:Copying training dataset
+2022-11-08 09:33:46,498:INFO:Copying test dataset
+2022-11-08 09:33:46,499:INFO:Plot type: feature_all
+2022-11-08 09:33:46,502:WARNING:No coef_ found. Trying feature_importances_
+2022-11-08 09:33:47,576:INFO:Visual Rendered Successfully
+2022-11-08 09:33:47,659:INFO:plot_model() succesfully completed......................................
