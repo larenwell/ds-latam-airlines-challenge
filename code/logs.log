@@ -10821,3 +10821,233 @@ KeyboardInterrupt
 2022-11-08 08:29:59,403:WARNING:No coef_ found. Trying feature_importances_
 2022-11-08 08:30:00,437:INFO:Visual Rendered Successfully
 2022-11-08 08:30:00,518:INFO:plot_model() succesfully completed......................................
+2022-11-08 08:35:41,787:INFO:Initializing plot_model()
+2022-11-08 08:35:41,787:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.32, ...), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=pr, plot_kwargs=None, save=False, scale=1, system=True)
+2022-11-08 08:35:41,787:INFO:Checking exceptions
+2022-11-08 08:35:41,791:INFO:Preparing display monitor
+2022-11-08 08:35:41,797:INFO:Preloading libraries
+2022-11-08 08:35:41,837:INFO:Copying training dataset
+2022-11-08 08:35:41,839:INFO:Copying test dataset
+2022-11-08 08:35:41,840:INFO:Plot type: pr
+2022-11-08 08:35:41,854:INFO:Fitting Model
+2022-11-08 08:35:41,858:INFO:Scoring test/hold-out set
+2022-11-08 08:35:42,093:INFO:Visual Rendered Successfully
+2022-11-08 08:35:42,173:INFO:plot_model() succesfully completed......................................
+2022-11-08 08:36:02,117:INFO:Initializing plot_model()
+2022-11-08 08:36:02,117:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.32, ...), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=auc, plot_kwargs=None, save=False, scale=1, system=True)
+2022-11-08 08:36:02,117:INFO:Checking exceptions
+2022-11-08 08:36:02,122:INFO:Preparing display monitor
+2022-11-08 08:36:02,128:INFO:Preloading libraries
+2022-11-08 08:36:02,160:INFO:Copying training dataset
+2022-11-08 08:36:02,162:INFO:Copying test dataset
+2022-11-08 08:36:02,163:INFO:Plot type: auc
+2022-11-08 08:36:02,164:INFO:Initializing get_config()
+2022-11-08 08:36:02,166:INFO:get_config(variable=prep_pipe)
+2022-11-08 08:36:02,173:INFO:Global variable: prep_pipe returned as Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['diaSemVuelOperado',
+                                                            'tipVuelo',
+                                                            'temporada_alta',
+                                                            'periodo_dia',
+                                                            'condMeteorologica',
+                                                            'cambioNroVuelo',
+                                                            'cambioCodAerolineaVuelo',
+                                                            'codAerolineaVuelOperado_LXP',
+                                                            'codAerolineaVuelOperado_OTRO',
+                                                            'codAerolineaVuelOperado_SKU',
+                                                            'codAerolineaVuelOperado_TAM',
+                                                            'nombAerolineaOperado_A...
+                 Advanced_Feature_Selection_Classic(ml_usecase='classification',
+                                                    n_jobs=-1, random_state=123,
+                                                    subclass='binary',
+                                                    target='atraso_15',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       correlation_with_target_threshold=0.0,
+                                       target_variable='atraso_15',
+                                       threshold=0.8)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-11-08 08:36:02,173:INFO:get_config() succesfully completed......................................
+2022-11-08 08:36:02,184:INFO:Fitting Model
+2022-11-08 08:36:02,191:INFO:Scoring test/hold-out set
+2022-11-08 08:36:02,430:INFO:Visual Rendered Successfully
+2022-11-08 08:36:02,512:INFO:plot_model() succesfully completed......................................
+2022-11-08 08:36:09,456:INFO:Initializing plot_model()
+2022-11-08 08:36:09,456:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.32, ...), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=cm, plot_kwargs=None, save=False, scale=1, system=True)
+2022-11-08 08:36:09,456:INFO:Checking exceptions
+2022-11-08 08:36:14,839:INFO:Initializing plot_model()
+2022-11-08 08:36:14,840:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.32, ...), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=confusion matrix, plot_kwargs=None, save=False, scale=1, system=True)
+2022-11-08 08:36:14,840:INFO:Checking exceptions
+2022-11-08 08:36:32,650:INFO:Initializing plot_model()
+2022-11-08 08:36:32,650:INFO:plot_model(fold=None, use_train_data=False, verbose=True, is_in_evaluate=False, display=None, display_format=None, estimator=CustomProbabilityThresholdClassifier(base_score=None, booster='gbtree',
+                                     callbacks=None,
+                                     classifier=XGBClassifier(base_score=None,
+                                                              booster='gbtree',
+                                                              callbacks=None,
+                                                              colsample_bylevel=None,
+                                                              colsample_bynode=None,
+                                                              colsample_bytree=None,
+                                                              early_stopping_rounds=None,
+                                                              enable_categorical=False,
+                                                              eval_metric=None,
+                                                              gamma=None,
+                                                              gpu_id=None,
+                                                              grow_policy=None,
+                                                              importance_type=...
+                                     gamma=None, gpu_id=None, grow_policy=None,
+                                     importance_type=None,
+                                     interaction_constraints=None,
+                                     learning_rate=None, max_bin=None,
+                                     max_cat_to_onehot=None,
+                                     max_delta_step=None, max_depth=None,
+                                     max_leaves=None, min_child_weight=None,
+                                     missing=nan, monotone_constraints=None,
+                                     n_estimators=100, n_jobs=-1,
+                                     num_parallel_tree=None,
+                                     objective='binary:logistic',
+                                     predictor=None, probability_threshold=0.32, ...), feature_name=None, fit_kwargs=None, groups=None, label=False, plot=confusion_matrix, plot_kwargs=None, save=False, scale=1, system=True)
+2022-11-08 08:36:32,650:INFO:Checking exceptions
+2022-11-08 08:36:32,655:INFO:Preparing display monitor
+2022-11-08 08:36:32,666:INFO:Preloading libraries
+2022-11-08 08:36:32,694:INFO:Copying training dataset
+2022-11-08 08:36:32,696:INFO:Copying test dataset
+2022-11-08 08:36:32,697:INFO:Plot type: confusion_matrix
+2022-11-08 08:36:32,699:INFO:Initializing get_config()
+2022-11-08 08:36:32,699:INFO:get_config(variable=prep_pipe)
+2022-11-08 08:36:32,710:INFO:Global variable: prep_pipe returned as Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['diaSemVuelOperado',
+                                                            'tipVuelo',
+                                                            'temporada_alta',
+                                                            'periodo_dia',
+                                                            'condMeteorologica',
+                                                            'cambioNroVuelo',
+                                                            'cambioCodAerolineaVuelo',
+                                                            'codAerolineaVuelOperado_LXP',
+                                                            'codAerolineaVuelOperado_OTRO',
+                                                            'codAerolineaVuelOperado_SKU',
+                                                            'codAerolineaVuelOperado_TAM',
+                                                            'nombAerolineaOperado_A...
+                 Advanced_Feature_Selection_Classic(ml_usecase='classification',
+                                                    n_jobs=-1, random_state=123,
+                                                    subclass='binary',
+                                                    target='atraso_15',
+                                                    top_features_to_pick=0.19999999999999996)),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       correlation_with_target_threshold=0.0,
+                                       target_variable='atraso_15',
+                                       threshold=0.8)),
+                ('dfs', 'passthrough'), ('pca', 'passthrough')],
+         verbose=False)
+2022-11-08 08:36:32,710:INFO:get_config() succesfully completed......................................
+2022-11-08 08:36:32,726:INFO:Fitting Model
+2022-11-08 08:36:32,729:INFO:Scoring test/hold-out set
+2022-11-08 08:36:32,944:INFO:Visual Rendered Successfully
+2022-11-08 08:36:33,011:INFO:plot_model() succesfully completed......................................
